@@ -1,0 +1,11 @@
+{
+    "name": "Convertly",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Chrome Extension to convert currencies quickly.",
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    }
+
+}
