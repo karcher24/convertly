@@ -1,0 +1,21 @@
+{
+    "name": "Convertly",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Chrome Extension to convert currencies quickly.",
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "host_permissions": [
+    "https://api.api-ninjas.com/*"
+   ],
+    "web_accessible_resources": [
+    {
+      "resources": ["config.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+
+}
